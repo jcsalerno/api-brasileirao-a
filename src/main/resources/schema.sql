@@ -1,5 +1,5 @@
 CREATE TABLE teams (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
     cidade_sede VARCHAR(255) NOT NULL,
     estadio VARCHAR(255) NOT NULL,
@@ -15,6 +15,6 @@ CREATE TABLE players (
     cidade VARCHAR(255) NOT NULL,
     foto_url VARCHAR(255),
     nacionalidade VARCHAR(100),
-    time_id INT,
-    FOREIGN KEY (time_id) REFERENCES teams(id)
+    time_id INT NOT NULL,
+    FOREIGN KEY (time_id) REFERENCES teams(id) ON DELETE CASCADE
 );

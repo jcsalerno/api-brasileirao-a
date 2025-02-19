@@ -15,8 +15,14 @@ public class JogadorController {
     @Autowired
     private JogadorService jogadorService;
 
-    @GetMapping("time/{timeId}")
+    @GetMapping("/posicao/{posicao}")
+    public List<Jogador> getJogadoresByPosicao(@PathVariable String posicao) {
+        return jogadorService.getJogadoresByPosicao(posicao);
+    }
+
+    @GetMapping("/time/{timeId}")
     public List<Jogador> getJogadoresByTime(@PathVariable Long timeId) {
         return jogadorService.getJogadoresByTime(timeId);
     }
+
 }
