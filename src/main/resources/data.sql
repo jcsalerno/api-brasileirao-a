@@ -863,6 +863,108 @@ VALUES ('Dylan Borrero', 77, 'Atacante', '2002-01-05', 'Palmira', NULL, 'Colombi
 INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
 VALUES ('Kervin Andrade', 77, 'Atacante', '2005-04-13', 'Puerto Ordaz', NULL, 'Venezuelano', 9);
 
+INSERT INTO teams (id, nome, cidade_sede, estadio, ano_fundacao)
+VALUES (10, 'Grêmio', 'Porto Alegre', 'Arena do Grêmio', 1903);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Moisés', 77, 'Goleiro', '1996-09-02', 'Morro da Fumaça', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Adriel', 77, 'Goleiro', '2001-01-14', 'Ilhéus', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Gabriel Grando', 77, 'Goleiro', '2000-03-29', 'Chapecó', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Thiago Beltrame', 77, 'Goleiro', '2003-07-02', 'Canoas', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Gustavo Martins', 77, 'Zagueiro', '2001-01-14', 'Niterói', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Adriel', 77, 'Zagueiro', '1992-08-24', 'Jeremoabo', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Kannemann', 77, 'Zagueiro', '1991-03-14', 'Conceppción del Uruguay', NULL, 'Argentino', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Natã Felipe', 77, 'Zagueiro', '2001-06-05', 'Ribeirão Preto', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Rodrigo Ely', 77, 'Zagueiro', '1993-11-03', 'Lajeado', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Wagner Leonardo', 77, 'Zagueiro', '1999-07-23', 'Ilhéus', NULL, 'Praia Grande', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Igor', 77, 'Lateral', '2005-03-01', 'Balneário Camboriú', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('João Lucas', 77, 'Lateral', '1998-03-09', 'Belo Horizonte', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('João Pedro', 77, 'Lateral', '1996-11-15', 'Presidente Bernardes', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Luan Cândido', 77, 'Lateral', '2001-02-02', 'Visconde do Rio Branco', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Lucas Esteves', 77, 'Lateral', '2000-06-24', 'São Paulo', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Mayk', 77, 'Lateral', '1999-08-31', 'Santo Antônio do Salto da Onça', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Franco Cristaldo', 77, 'Meio-Campo', '1996-08-15', 'Fuerte Apache', NULL, 'Argentino', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Monsalve', 77, 'Meio-Campo', '2004-02-27', 'Mendellín', NULL, 'Colombiano', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Nathan', 77, 'Meio-Campo', '1996-03-13', 'Blumenau', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Ronald', 77, 'Meio-Campo', '2003-02-11', 'Porto Alegre', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Villasanti', 77, 'Meio-Campo', '1997-01-24', 'Caacupé', NULL, 'Paraguaio', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Camilo', 77, 'Meio-Campo', '1999-02-23', 'Mogi Mirim', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Cuéllar', 77, 'Meio-Campo', '1992-10-14', 'Barranquilla', NULL, 'Colombiano', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Dodi', 77, 'Meio-Campo', '1996-04-17', 'Santo Antônio do Sudoeste', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('André Henrique', 77, 'Atacante', '2001-12-17', 'Guanambi', NULL, 'Brasileiro', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Aravena', 77, 'Atacante', '2002-09-06', 'Huechuraba', NULL, 'Chileno', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Arezo', 77, 'Atacante', '2002-11-21', 'Montevidéu', NULL, 'Uruguaio', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Braithwaite', 77, 'Atacante', '1991-06-05', 'Esbjerg', NULL, 'Dinamarquês', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Cristian Olivera', 77, 'Atacante', '2002-04-17', 'Montevidéu', NULL, 'Uruguaio', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Pavon', 77, 'Atacante', '1996-01-21', 'Anisacate', NULL, 'Argentino', 10);
+
+INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
+VALUES ('Amuzu', 77, 'Atacante', '1999-08-23', 'Accra', NULL, 'Ganesa e Belga', 10);
+
+
+
+
+
+
+
 
 
 
