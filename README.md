@@ -6,3 +6,4 @@
 - Cruzeiro procurar os laterais
 - Fortaleza  pegar numero da camisa
 - Grêmio pegar número das camisas
+- Inter Goleiro Kauan + informacoes + o atacante Ricardo Mathias
