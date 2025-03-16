@@ -1,9 +1,6 @@
 INSERT INTO teams (id, nome, cidade_sede, estadio, ano_fundacao)
 VALUES (1, 'Atlético Mineiro', 'Belo Horizonte', 'Arena MRV', 1908);
 
-INSERT INTO teams (id, nome, cidade_sede, estadio, ano_fundacao)
-VALUES (10, 'Palmeiras', 'São Paulo', 'Allianz Parque', 1914);
-
 INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
 VALUES ('Gabriel Delfim', 1, 'Goleiro', '1990-07-10', 'Pindamonhangaba', NULL, 'Brasileiro', 1);
 
@@ -741,16 +738,16 @@ INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacio
 VALUES ('Isaque', 37, 'Meio-Campo', '2007-02-24', 'São Carlos', NULL, 'Brasileiro', 8);
 
 INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
-VALUES ('Riquelme', 28 'Meio-Campo', '1989-10-12', 'Araçatuba', NULL, 'Brasileiro', 8);
+VALUES ('Riquelme', 28, 'Meio-Campo', '1989-10-12', 'Araçatuba', NULL, 'Brasileiro', 8);
 
 INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
-VALUES ('Canobbio', 17 'Atacante', '1998-10-01', 'Montevidéu', NULL, 'Uruguaio', 8);
+VALUES ('Canobbio', 17, 'Atacante', '1998-10-01', 'Montevidéu', NULL, 'Uruguaio', 8);
 
 INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
-VALUES ('Serna', 90 'Atacante', '1997-12-17', 'Popayán', NULL, 'Colombiano', 8);
+VALUES ('Serna', 90, 'Atacante', '1997-12-17', 'Popayán', NULL, 'Colombiano', 8);
 
 INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
-VALUES ('Germán Cano', 14 'Atacante', '1988-01-02', 'Lomas de Zamora', NULL, 'Argentino', 8);
+VALUES ('Germán Cano', 14, 'Atacante', '1988-01-02', 'Lomas de Zamora', NULL, 'Argentino', 8);
 
 INSERT INTO players (nome, numero, posicao, aniversario, cidade, foto_url, nacionalidade, time_id)
 VALUES ('Lelê', 18, 'Atacante', '1997-10-01', 'Rio de Janeiro', NULL, 'Brasileiro', 8);

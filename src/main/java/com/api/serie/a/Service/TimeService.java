@@ -38,4 +38,9 @@ public class TimeService {
         }
         return jogadorRepository.findByTimeIdAndPosicao(time.getId(), posicao);
     }
+
+    public Time getTimeByNome(String nomeTime) {
+        return timeRepository.findByNome(nomeTime);
+
+    }
 }

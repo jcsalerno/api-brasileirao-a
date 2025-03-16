@@ -1,6 +1,6 @@
 package com.api.serie.a.Model;
-
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -22,6 +22,7 @@ public class Jogador {
     private int numero;
     private String posicao;
 
+    @JsonFormat(pattern = "dd/MM/yyyy")
     @Column(name = "aniversario")
     private LocalDate aniversario;
 
