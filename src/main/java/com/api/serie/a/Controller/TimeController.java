@@ -4,7 +4,6 @@ import com.api.serie.a.Model.Time;
 import com.api.serie.a.Service.TimeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
