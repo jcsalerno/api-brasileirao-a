@@ -9,7 +9,7 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**") // Permite CORS para todas as rotas /api
-                .allowedOrigins("\"https://front-end-brasileirao-serie-a.onrender.com") // Frontend URL
+                .allowedOrigins("https://front-end-brasileirao-serie-a.onrender.com") // Frontend URL
                 .allowedMethods("GET", "POST", "PUT", "DELETE") // Métodos permitidos
                 .allowedHeaders("*") // Headers permitidos
                 .allowCredentials(true); // Permite credenciais (cookies, etc.)
