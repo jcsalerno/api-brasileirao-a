@@ -2,45 +2,109 @@
 
 Esta API fornece informações sobre times e jogadores do Campeonato Brasileiro Série A. Ela permite consultar times, jogadores por time, jogadores por posição e muito mais.
 
-## Endpoints da API
+## 📌 Endpoints da API
 
-### 1. Home
+### 🔹 Home
 
-#### `GET  https://api-brasileirao-a.onrender.com`
-Retorna uma página HTML simples com uma mensagem de carregamento e redireciona para a documentação e mais, após 3 segundos.
+🟢 **Requisição**
 
-### 2. Times
+**Método:** GET  
+**URL:** `https://api-brasileirao-a.onrender.com`
 
-#### `GET /api/times`
+📤 **Resposta**
+
+Retorna uma página HTML com uma mensagem de carregamento e redireciona para a documentação após 3 segundos.
+
+---
+
+### 🔹 Times
+
+🟢 **Requisição**
+
+**Método:** GET  
+**URL:** `/api/times`
+
+📤 **Resposta**
+
 Retorna uma lista de todos os times.
 
-#### `GET /api/times/{nomeTime}`
+---
+
+🟢 **Requisição**
+
+**Método:** GET  
+**URL:** `/api/times/{nomeTime}`
+
+📤 **Resposta**
+
 Retorna os detalhes de um time específico pelo nome.
 
-#### `GET /api/times/{nomeTime}/jogadores`
+---
+
+🟢 **Requisição**
+
+**Método:** GET  
+**URL:** `/api/times/{nomeTime}/jogadores`
+
+📤 **Resposta**
+
 Retorna uma lista de jogadores de um time específico.
 
-#### `GET /api/times/{nomeTime}/jogadores/{posicao}`
+---
+
+🟢 **Requisição**
+
+**Método:** GET  
+**URL:** `/api/times/{nomeTime}/jogadores/{posicao}`
+
+📤 **Resposta**
+
 Retorna uma lista de jogadores de um time específico filtrados por posição.
 
-### 3. Jogadores
+---
 
-#### `GET /api/jogadores/time/{timeId}`
+### 🔹 Jogadores
+
+🟢 **Requisição**
+
+**Método:** GET  
+**URL:** `/api/jogadores/time/{timeId}`
+
+📥 **Parâmetro opcional:**
+- `fields` - Define campos específicos a serem retornados, separados por vírgula.
+
+📤 **Resposta**
+
 Retorna uma lista de jogadores de um time específico pelo ID do time.
 
-**Parâmetro opcional:**
+---
+
+🟢 **Requisição**
+
+**Método:** GET  
+**URL:** `/api/jogadores/posicao/{posicao}`
+
+📥 **Parâmetro opcional:**
 - `fields` - Define campos específicos a serem retornados, separados por vírgula.
 
-#### `GET /api/jogadores/posicao/{posicao}`
+📤 **Resposta**
+
 Retorna uma lista de jogadores por posição.
 
-**Parâmetro opcional:**
-- `fields` - Define campos específicos a serem retornados, separados por vírgula.
+
+
+---
+
+## 📌 Informações importantes
 
 > **Nota:** Alguns times podem não conter jogadores cadastrados ou informações completas sobre seus elencos.
+<br>
 > **Alguns times podem não retornar dados.**
+<br>
 > **NENHUMA FOTO AINDA ESTÁ DISPONÍVEL**
+<br>
 >**Requisições inválidas ou erros de servidor podem não ser tratados adequadamente.**
+<br>
 
 - **Ceará:** Buscar os números das camisas dos jogadores.
 - **Corinthians:** Buscar o número das camisas e a data de nascimento (dia e mês) dos jogadores.
