@@ -93,7 +93,7 @@ public class HomeController {
                 "            <div class=\"soccer-ball\"></div>\n" +
                 "            <h1>Carregando API...</h1>\n" +
                 "            <p>\n" +
-                "                Aguarde enquanto redirecionamos você para a página do front-end.\n" +
+                "                Aguarde enquanto redirecionamos você para API.\n" +
                 "                <br>\n" +
                 "                Se o redirecionamento não funcionar, <a href=\"https://front-end-brasileirao-serie-a.onrender.com/\">clique aqui</a>.\n" +
                 "            </p>\n" +
