@@ -5,7 +5,6 @@ import com.api.serie.a.Repository.JogadorRepository;
 import com.api.serie.a.Repository.TimeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.Collections;
 import java.util.List;
 
@@ -14,6 +13,9 @@ public class JogadorService {
 
     @Autowired
     private JogadorRepository jogadorRepository;
+
+    @Autowired // Adicione esta anotação
+    private TimeRepository timeRepository;
 
     public List<Jogador> getJogadoresByTime(Long timeId) {
         return jogadorRepository.findByTimeId(timeId);
@@ -24,8 +26,7 @@ public class JogadorService {
     }
 
     public List<Jogador> getJogadoresByTimeEPosicao(String nomeTime, String posicao) {
-        TimeRepository timeRepository = null;
-        Time time = timeRepository.findByNome(nomeTime);
+        Time time = timeRepository.findByNome(nomeTime); // Agora funciona
         if (time == null) {
             return Collections.emptyList();
         }

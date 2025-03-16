@@ -1,13 +1,13 @@
-CREATE TABLE teams (
-    id INT PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS teams (
+    id SERIAL PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
     cidade_sede VARCHAR(255) NOT NULL,
     estadio VARCHAR(255) NOT NULL,
     ano_fundacao INT NOT NULL
 );
 
-CREATE TABLE players (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS players (
+    id SERIAL PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
     numero INT NOT NULL,
     posicao VARCHAR(50) NOT NULL,
