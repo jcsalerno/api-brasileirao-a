@@ -2,6 +2,7 @@
 
 Esta API fornece informações sobre times e jogadores do Campeonato Brasileiro Série A. Ela permite consultar times, jogadores por time, jogadores por posição e muito mais.
 
+---
 
 🛠️ **Tecnologias Utilizadas**
 - Deploy na Render
@@ -10,6 +11,7 @@ Esta API fornece informações sobre times e jogadores do Campeonato Brasileiro 
 - Java 17
 - Docker
 - JPA/Hibernate
+---
 
 ## 📌 Endpoints da API
 
