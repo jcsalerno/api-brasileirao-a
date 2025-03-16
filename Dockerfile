@@ -13,8 +13,8 @@ COPY . .
 # Configura a codificação UTF-8 para o Maven
 ENV MAVEN_OPTS="-Dfile.encoding=UTF-8"
 
-# Executa o build do projeto, desativando a filtragem de recursos
-RUN ./mvnw clean package -DskipTests -Dmaven.resources.filtering=false
+# Executa o build do projeto, desativando completamente a filtragem de recursos
+RUN ./mvnw clean package -DskipTests -Dmaven.resources.filtering=false -Dmaven.test.skip=true
 
 # Estágio de execução
 FROM openjdk:21-jdk-slim
