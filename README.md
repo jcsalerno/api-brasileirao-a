@@ -126,3 +126,4 @@ Retorna uma lista de jogadores por posição.
 - **Juventude:**
     - Buscar o local de nascimento de Wilker Ángel, Clébio (zagueiro), Daniel (camisa 8) e Emersom Batalla.
     - Buscar o número da camisa de Maurício Garcez.
+- **Mirassol:** Buscar quase todas as informações.
